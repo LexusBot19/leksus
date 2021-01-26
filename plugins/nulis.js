@@ -51,7 +51,7 @@ let handler  = async (m, { conn, args }) => {
   ])
   .on('error', e => conn.reply(m.chat, util.format(e), m))
   .on('exit', () => {
-    conn.sendFile(m.chat, outputPath, 'nulis.jpg', 'Nihhh cuk... Tulisanmu. Mager Lu?\n *Instagram* : @arpunchs' , m)
+    conn.sendFile(m.chat, outputPath, 'nulis.jpg', 'Noh Su... Tulisanmu. Mager Lu?:v\n *Instagram* : @Lxcyz._' , m)
   })
 }
 handler.help = ['n'].map(v => v + 'ulis <teks>')
@@ -70,5 +70,5 @@ handler.fail = null
 
 module.exports = handler
 
-// BY MFARELS NJEENK
-// https://GitHub.com/MFarelS/
+// BY LexusBot
+// https://GitHub.com/LexusBot19
