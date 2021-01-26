@@ -9,10 +9,10 @@ handler.help = ['daily', 'claim']
 handler.tags = ['xp']
 handler.command = /^(daily|claim)$/i
 handler.owner = true
-handler.mods = true
+handler.mods = falae
 handler.premium = false
-handler.group = true
-handler.private = true
+handler.group = false
+handler.private = false
 
 handler.admin = true
 handler.botAdmin = false
